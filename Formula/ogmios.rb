@@ -10,7 +10,7 @@ class Ogmios < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/CardanoSolutions/ogmios/releases/download/v7.0.0/ogmios-v7.0.0-aarch64-macos.zip"
-      sha256 "504f593852dda87569d6252e18d0d3a644e5c091186df7a4a3791d9ceda2f280"
+      sha256 "b3e5bfc1bd04d923a91f05371378ce98c918ee6c3b0f0e74bdbcf81f8be2f510"
     end
   end
   if OS.linux?
